@@ -38,7 +38,9 @@ install_shell() {
     && sudo apt install gh -y
 
     # install copilot extension
-    # gh extension install github/gh-copilot
+    gh extension install github/gh-copilot
+
+    curl -s https://ohmyposh.dev/install.sh | bash -s
 }
 
 install_dotfiles() {
